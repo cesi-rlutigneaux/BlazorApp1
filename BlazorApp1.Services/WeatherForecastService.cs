@@ -2,9 +2,9 @@
 
 namespace BlazorApp1.Services
 {
-    public class WeatherForecastService
+    public class WeatherForecastService : IWeatherForecastService
     {
-        public static async Task<WeatherForecast[]> GetForecastsAsync() 
+        public async Task<WeatherForecast[]> GetForecastsAsync() 
         {
             // Simulate asynchronous loading to demonstrate a loading indicator
             await Task.Delay(500);

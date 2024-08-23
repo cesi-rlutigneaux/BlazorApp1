@@ -38,6 +38,9 @@ else
 }
 
 @code {
+    [Inject]
+    private IWeatherForecastService WeatherForecastService { get; set; }
+
     private WeatherForecast[]? forecasts;
 
     protected override async Task OnInitializedAsync()
