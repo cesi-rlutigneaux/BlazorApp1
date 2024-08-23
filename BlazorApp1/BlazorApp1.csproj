@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\BlazorApp1.Components\Counter.razor.cs" Link="Counter.razor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BlazorApp1.Client\BlazorApp1.Client.csproj" />
     <ProjectReference Include="..\BlazorApp1.Components\BlazorApp1.Components.csproj" />
     <ProjectReference Include="..\BlazorApp1.Models\BlazorApp1.Models.csproj" />
